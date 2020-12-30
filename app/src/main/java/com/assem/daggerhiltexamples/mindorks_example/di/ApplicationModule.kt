@@ -33,7 +33,6 @@ class ApplicationModule {
         .Builder()
         .build()
 
-
     @Provides
     @Singleton
     fun provideRetrofit(okHttpClient: OkHttpClient, BASE_URL: String): Retrofit =
