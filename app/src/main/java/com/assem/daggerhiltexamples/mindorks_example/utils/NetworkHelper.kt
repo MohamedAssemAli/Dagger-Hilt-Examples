@@ -1,5 +1,4 @@
 package com.assem.daggerhiltexamples.mindorks_example.utils
-
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities

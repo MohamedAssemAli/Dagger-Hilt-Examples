@@ -15,6 +15,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".git_demo.GitDemoActivity"/>
         <activity android:name=".mindorks_example.ui.MindOrksExampleActivity">
+        <activity android:name=".mindorks_example.ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
