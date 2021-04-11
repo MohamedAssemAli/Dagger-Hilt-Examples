@@ -1,14 +1,12 @@
-package com.assem.daggerhiltexamples
+package com.assem.daggerhiltexamples.git_demo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.assem.daggerhiltexamples.R
 
-class MainActivity : AppCompatActivity() {
-
+class GitDemoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-
+        setContentView(R.layout.activity_git_demo)
     }
 }

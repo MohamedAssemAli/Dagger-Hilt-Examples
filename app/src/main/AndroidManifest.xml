@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".git_demo.GitDemoActivity"/>
         <activity android:name=".mindorks_example.ui.MindOrksExampleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,4 +22,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
